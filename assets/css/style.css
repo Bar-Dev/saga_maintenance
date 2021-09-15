@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-size: cover;
+}
+
+h1 {
+    font-family: "jura", sans-serif;
+}
+
+.logos {
+    width: 60px;
+    margin: 10px 10px;
+}
+
+.logo-position {
+    justify-content: center;
+}
+
+.logo-extra {
+    padding: 10px 10px;
+}
+
+.video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+.row-logos {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.decenomy-logo {
+    width: 200px;
+    height: 100%;
+}
+
+.main-logo {
+    width: 400px;
+    height: 100%;
+}
+
+#grad1 {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#f8f9fa, #00dd80);
+}
+
+iframe {
+    width: 500px;
+    height: 250px;
+}
+
+.test {
+    margin: auto;
+}
+
+.foot-size {
+    height: 150px;
+}
+
+.foot-logo {
+    height: 100px;
+    width: auto;
+}
+
+@media(max-width: 595px) {
+    iframe {
+    width: 400px;
+    height: 230px;
+    }
+}
+
+@media(max-width: 485px) {
+    iframe {
+    width: 300px;
+    height: 165px;
+    }
+}
